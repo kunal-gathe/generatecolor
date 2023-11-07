@@ -1,0 +1,24 @@
+body{
+    background-color: #D4133D;
+}
+.container {
+    font-family: arial;
+    font-size: 24px;
+    margin: 250px;
+    width: 250px;
+    height: 200px;
+    outline: dashed 1px black;
+    /* Center vertically and horizontally */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .child {
+    padding: 20px;
+    font-size: 1.5rem;
+    background-color: rgb(0, 166, 255);
+    border-bottom-right-radius: none;
+    border-radius: 10px;
+  }
+  
